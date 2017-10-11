@@ -1,2 +1,0 @@
-# vizidka
-hello all
