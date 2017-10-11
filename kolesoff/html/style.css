@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0 15px;
+	color: #343434;
+	font: normal 13px/18px Helvetica, Arial, sans-serif;
+	background: #f7f0c2 url(image/images/bg.png) repeat left top;
+}
+
+.clear:before {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+a {
+	color: #023875;
+	text-decoration: underline;
+}
+
+a img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #023875;
+}
+
+h1 {
+	padding: 40px 0 24px;
+	line-height: 1.4em;
+}
+
+h2 {
+	padding: 0 0 12px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+form, menu, iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+ol, ul, dl, li, dt, dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+* {
+	outline: none;
+}
+.info {
+	float: right;
+}
+
+.line { margin: 15px 0; border-radius: 5px;
+	background: #023875;
+}
+
+.resize {	width: 930px;	margin: auto;	background: #fff;}
+a.logo {font-size: 24px;}
+strong {font-size: 48px; ;}
+span {font-size: 13px; margin: 20px 20px;}
+img a {padding: 0 150px;}
+.article {float-left; width: 600px; margin: 15px 15px 15px;}
+.aside { width: 300px; float: right;}
+.article:before {content: ""; display: block; clear: both;}
+.footer {margin: 15px 0; border-radius: 5px;	background: #023875; color: #fff;}
